@@ -22,4 +22,4 @@ jobs:
         run: npm install
 
       - name: Deploy Bot
-        run: npm start  # Replace with your deployment command
+        run: node server.js  # Replace with your deployment command
