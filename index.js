@@ -31,6 +31,8 @@ function addUser(ctx){
     data.total = Total;
     data = JSON.stringify(data);
     fs.writeFileSync("data.json",data);
+    ctx.reply("User added successfully \n details: ");
+    ctx.reply(data);
 }
 
 
